@@ -1,0 +1,17 @@
+:root {
+  --accent-color: #f4f4fd;
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --thirdly-text-color: #4d5ae5;
+}
+.accent {
+    color: var(--thirdly-text-color);
+}
+
+.logo{
+    color: var(--primary-text-color);
+}
+
+.link{
+    text-decoration: none;
+}
