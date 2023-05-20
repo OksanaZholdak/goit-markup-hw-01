@@ -4,14 +4,178 @@
   --secondary-text-color: #434455;
   --thirdly-text-color: #4d5ae5;
 }
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: var(--accent-color);
+}
+
 .accent {
-    color: var(--thirdly-text-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 16;
+  color: var(--thirdly-text-color);
 }
 
-.logo{
-    color: var(--primary-text-color);
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 16;
+  color: var(--primary-text-color);
 }
 
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.studio-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--primary-text-color);
+}
+
+.nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--primary-text-color);
+}
+
+.contacts-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--primary-text-color);
+}
+
+.contact-link {
+  color: var(--secondary-text-color);
+}
+
+.phone-link {
+  color: var(--secondary-text-color);
+}
+
+.main-section {
+  background-color: var(--primary-text-color);
+}
+
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  color: var(--accent-color);
+}
+
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--accent-color);
+  background-color: var(--thirdly-text-color);
+}
+
+.button-portfolio {
+background-color: var(--accent-color);
+color: var(--thirdly-text-color);
+}
+
+.benefits-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  color: var(--primary-text-color);
+}
+
+.benefits-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 2;
+  color: var(--secondary-text-color);
+}
+
+.section-title {
+  display: none;
+}
+
+.team {  
+    font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+
+.team-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  color: var(--primary-text-color);
+}
+
+.team-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  color: var(--primary-text-color);
+}
+.team-position {
+    color: var(--secondary-text-color);
+}
+
+.footer {
+  background-color: var(--primary-text-color);
+}
+
+.footer-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 16;
+  color: var(--accent-color);
+}
+
+.logo-footer {
+  color: var(--thirdly-text-color);
+}
+
+.footer-text {
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
 }
